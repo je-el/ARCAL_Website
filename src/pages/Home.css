@@ -1,0 +1,30 @@
+.home {
+    padding: 20px;
+  }
+  
+  .hero {
+    margin: 40px 0;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .store-buttons {
+    margin-top: 20px;
+  }
+  
+  .store-buttons a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .store-buttons img {
+    width: 150px;
+    height: auto;
+  }

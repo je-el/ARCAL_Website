@@ -1,0 +1,24 @@
+arcal-website/
+├── .gitignore
+├── package.json
+├── README.md
+├── public
+│   ├── index.html
+│   ├── manifest.json
+│   ├── favicon.ico         // (your favicon image)
+│   └── assets
+│       ├── Download_on_App_Store.svg
+│       └── Download_on_Mac_App_Store.svg
+└── src
+    ├── index.js
+    ├── index.css
+    ├── App.js
+    ├── App.css
+    ├── components
+    │   ├── Navbar.js
+    │   └── Navbar.css
+    └── pages
+        ├── Home.js
+        ├── Home.css
+        ├── PrivacyPolicy.js
+        └── PrivacyPolicy.css
