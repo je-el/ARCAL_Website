@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import Support from './pages/support';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/support" element={<Support />} />
       </Routes>
     </div>
   );

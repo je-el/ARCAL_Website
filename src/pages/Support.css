@@ -1,0 +1,16 @@
+.support {
+    padding: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .support h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .support p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }

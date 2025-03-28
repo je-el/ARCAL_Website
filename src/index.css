@@ -9,3 +9,21 @@ body {
     text-decoration: none;
     color: inherit;
   }
+  /* src/index.css or src/ThemeToggle.css */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Optional: Style the toggle button */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
