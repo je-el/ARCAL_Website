@@ -16,6 +16,7 @@ export const ThemeProvider = ({ children }) => {
   }, []);
 
   return (
+    //lets hope this works
     <ThemeContext.Provider value={{ theme, setTheme }}>
       {children}
     </ThemeContext.Provider>
