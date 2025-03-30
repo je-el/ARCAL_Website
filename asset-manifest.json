@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ARCAL_Website/static/css/main.861e4501.css",
-    "main.js": "/ARCAL_Website/static/js/main.8572f45b.js",
+    "main.css": "/ARCAL_Website/static/css/main.9aa79f48.css",
+    "main.js": "/ARCAL_Website/static/js/main.14a6e1ec.js",
     "index.html": "/ARCAL_Website/index.html",
-    "main.861e4501.css.map": "/ARCAL_Website/static/css/main.861e4501.css.map",
-    "main.8572f45b.js.map": "/ARCAL_Website/static/js/main.8572f45b.js.map"
+    "main.9aa79f48.css.map": "/ARCAL_Website/static/css/main.9aa79f48.css.map",
+    "main.14a6e1ec.js.map": "/ARCAL_Website/static/js/main.14a6e1ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.861e4501.css",
-    "static/js/main.8572f45b.js"
+    "static/css/main.9aa79f48.css",
+    "static/js/main.14a6e1ec.js"
   ]
 }
