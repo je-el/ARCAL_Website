@@ -5,6 +5,7 @@
   "homepage": "https://je-el.github.io/ARCAL_Website/",
   "dependencies": {
     "gh-pages": "^6.3.0",
+    "lucide-react": "^0.485.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
@@ -16,7 +17,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "tailwind": "node_modules/.bin/tailwindcss init -p"
+
   },
   "browserslist": {
     "production": [
@@ -29,5 +32,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.17"
   }
 }
