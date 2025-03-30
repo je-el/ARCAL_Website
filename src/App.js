@@ -1,20 +1,28 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import './App.css';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import PrivacyPolicy from './pages/PrivacyPolicy';
-import Support from './pages/support';
+// src/App.js
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Support from "./pages/support";
+import ThemeToggle from "./components/ThemeToggle";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/support" element={<Support />} />
-      </Routes>
+      <header className="navbar">
+        <Link to="/">Home</Link>
+        <Link to="/privacy-policy">Privacy Policy</Link>
+        <Link to="/support">Support</Link>
+        <ThemeToggle />
+      </header>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/support" element={<Support />} />
+        </Routes>
+      </main>
     </div>
   );
 }

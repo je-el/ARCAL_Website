@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://je-el.github.io/ARCAL_Website/",
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
