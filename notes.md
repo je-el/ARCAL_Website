@@ -1,37 +1,28 @@
-Project Structure:
-my-react-app/
-├── package.json
+my-artcalc-app/
+├── node_modules/
+│   └── [All installed npm packages. Generally do not modify anything here directly.]
+│
 ├── public/
-│   ├── index.html
-│   ├── manifest.json
-│   ├── favicon.ico
-│   └── Assets/
-│       ├── Download_on_App_Store/
-│       │   ├── Black_lockup/
-│       │   │   └── SVG/
-│       │   │       └── Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg
-│       │   └── White_lockup/
-│       │       └── SVG/
-│       │           └── Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg
-│       └── Download_on_Mac_App_Store/
-│           ├── Black_lockup/
-│           │   └── SVG/
-│           │       └── Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg
-│           └── White_lockup/
-│               └── SVG/
-│                   └── Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg
-└── src/
-    ├── index.js
-    ├── App.js
-    ├── components/
-    │   ├── Navbar.js
-    │   ├── Navbar.css
-    │   └── ThemeToggle.js
-    ├── pages/
-    │   ├── Home.js
-    │   ├── Home.css
-    │   ├── PrivacyPolicy.js
-    │   ├── PrivacyPolicy.css
-    │   ├── Support.js        // New support page
-    │   └── Support.css       // New support page CSS
-    └── ThemeContext.js
+│   ├── index.html      [Main HTML entry point for your React app.]
+│   └── favicon.ico     [Your site’s favicon.]
+│
+├── src/
+│   ├── components/
+│   │   ├── Home.jsx          [Home page component code.]
+│   │   ├── PrivacyPolicy.jsx [Privacy policy page code.]
+│   │   ├── Support.jsx       [Support page component code.]
+│   │   └── Donate.jsx        [Donate page component code.]
+│   │
+│   ├── icons/
+│   │   ├── mac-appstore-black.svg
+│   │   ├── mac-appstore-white.svg
+│   │   ├── ios-appstore-black.svg
+│   │   └── ios-appstore-white.svg
+│   │       [SVG files for App Store buttons, both dark & light variants.]
+│   │
+│   ├── App.jsx         [Main root component that handles routing and layout (navbar, dark/light mode).]
+│   ├── index.js        [Your React entry point, rendering <App/> to the DOM.]
+│   └── styles.css      [Global or shared CSS styles for your app.]
+│
+├── package.json        [Lists dependencies and scripts; used by npm or yarn.]
+└── README.md           [Project documentation and instructions.]

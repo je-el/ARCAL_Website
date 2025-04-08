@@ -1,0 +1,54 @@
+/* Light Mode Styles */
+.app.light {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Dark Mode Styles */
+.app.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #eee;
+}
+
+.app.dark .navbar {
+  background-color: #444;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+/* Dark/Light mode toggle button */
+.mode-toggle {
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+}
+
+/* Content container */
+.content {
+  padding: 2rem;
+}
+
+/* Store links styling */
+.store-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.store-links a img {
+  height: 50px; /* Adjust size as needed */
+}
+
+/* Support form and Donate page styling can be included here as needed */
