@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-// Import Lucid icons for Donate page (adjust as necessary)
-import { HandshakeIcon, CoffeeIcon, BadgeDollarSignIcon, CircleDollarSignIcon } from 'lucide-react';
+import { TbBrandCashapp, TbBrandPaypal } from "react-icons/tb";
+import { FaDonate } from "react-icons/fa";
+import { SiKofi } from "react-icons/si";
 import Home from './Home';
 //import PrivacyPolicy from './PrivacyPolicy';
 //import Support from './Support';
@@ -83,15 +84,15 @@ function Donate() {
       <div className="donate-buttons">
         
         <a href="https://ko-fi.com/yourpage" target="_blank" rel="noopener noreferrer">
-          <CoffeeIcon size={32} />
+          <SiKofi size={32} />
           <span>Ko-fi</span>
         </a>
         <a href="https://cash.app/$yourhandle" target="_blank" rel="noopener noreferrer">
-          <BadgeDollarSignIcon size={32} />
+          <TbBrandCashapp size={32} />
           <span>CashApp</span>
         </a>
         <a href="https://www.paypal.com/paypalme/yourpage" target="_blank" rel="noopener noreferrer">
-          <CircleDollarSignIcon size={32} />
+          <TbBrandPaypal size={32} />
           <span>PayPal</span>
         </a>
       </div>
