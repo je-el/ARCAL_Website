@@ -1,29 +1,23 @@
 {
-    "name": "my-artcalc-app",
-    "version": "0.1.0",
+    "name": "arcal-app",
+    "version": "1.0.0",
     "private": true,
-    "homepage": "https://je-el.github.io/ARCAL_Website",
     "dependencies": {
-        "lucid-react": "^1.0.0",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2",
-        "react-router-dom": "^6.4.3",
-        "react-scripts": "5.0.1",
-        "gh-pages": "^3.2.3"
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-router-dom": "^6.23.0",
+      "lucide-react": "^0.292.0"
+    },
+    "devDependencies": {
+      "tailwindcss": "^3.4.0",
+      "postcss": "^8.4.21",
+      "autoprefixer": "^10.4.16"
     },
     "scripts": {
       "start": "react-scripts start",
       "build": "react-scripts build",
       "test": "react-scripts test",
-      "eject": "react-scripts eject",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
-    },
-    "eslintConfig": {
-      "extends": [
-        "react-app",
-        "react-app/jest"
-      ]
+      "eject": "react-scripts eject"
     },
     "browserslist": {
       "production": [
