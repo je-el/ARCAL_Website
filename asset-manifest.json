@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/ARCAL_Website/static/css/main.9aa79f48.css",
-    "main.js": "/ARCAL_Website/static/js/main.14a6e1ec.js",
+    "main.css": "/ARCAL_Website/static/css/main.29e4f5cc.css",
+    "main.js": "/ARCAL_Website/static/js/main.f830a8d9.js",
+    "static/media/mac-appstore-black.svg": "/ARCAL_Website/static/media/mac-appstore-black.1d39e8dace6b366637c5a86a05efe854.svg",
+    "static/media/mac-appstore-white.svg": "/ARCAL_Website/static/media/mac-appstore-white.93ae99b832a266634c96c4d7dc4d58c6.svg",
+    "static/media/ios-appstore-black.svg": "/ARCAL_Website/static/media/ios-appstore-black.8c4986ee4828b47d16f5cd694ef065f2.svg",
+    "static/media/ios-appstore-white.svg": "/ARCAL_Website/static/media/ios-appstore-white.969642b47a537eefe45f64aaa42f530b.svg",
     "index.html": "/ARCAL_Website/index.html",
-    "main.9aa79f48.css.map": "/ARCAL_Website/static/css/main.9aa79f48.css.map",
-    "main.14a6e1ec.js.map": "/ARCAL_Website/static/js/main.14a6e1ec.js.map"
+    "main.29e4f5cc.css.map": "/ARCAL_Website/static/css/main.29e4f5cc.css.map",
+    "main.f830a8d9.js.map": "/ARCAL_Website/static/js/main.f830a8d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aa79f48.css",
-    "static/js/main.14a6e1ec.js"
+    "static/css/main.29e4f5cc.css",
+    "static/js/main.f830a8d9.js"
   ]
 }
