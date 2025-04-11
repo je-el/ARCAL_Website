@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ArtCalc landing site",
   "private": true,
+  "homepage": "https://je-el.github.io/ARCAL_Website",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
