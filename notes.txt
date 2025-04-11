@@ -1,0 +1,50 @@
+{
+  "name": "arcal-website",                    /* Project name */
+  "version": "1.0.0",                         /* Initial version number */
+  "description": "ARCal landing site",        /* Short description */
+  "private": true,                            /* Prevents accidental publishing to npm */
+  "scripts": {
+    "start": "react-scripts start",           /* Starts dev server (localhost:3000) */
+    "build": "react-scripts build",           /* Creates optimized production build */
+    "test": "react-scripts test",             /* Runs tests (if any) */
+    "eject": "react-scripts eject"            /* Exposes full Webpack config (use with caution) */
+  },
+  "dependencies": {
+    "react": "^18.2.0",                        /* Core React library */
+    "react-dom": "^18.2.0",                   /* DOM-specific methods for React */
+    "react-router-dom": "^6.17.0",            /* Routing for single-page React apps */
+    "lucide-react": "^0.285.0"                /* Icon library you're using */
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5",                  /* Utility-first CSS framework (if used) */
+    "autoprefixer": "^10.4.14",               /* Adds vendor prefixes for CSS */
+    "postcss": "^8.4.24"                      /* CSS transformation engine used by Tailwind */
+  },
+  "browserslist": {                           /* Tells build tool which browsers to target */
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+
+
+
+
+https://apps.apple.com/us/app/artilcalc/id6743814007?mt=12
+
+<iframe 
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSfYJsmNGXGX1j3T20nz16VPrRMd21P0n4ih1H_XS-02QOuykg/viewform?embedded=true" 
+                    width="640" 
+                    height="779" 
+                    frameborder="0" 
+                    marginheight="0" 
+                    marginwidth="0">
+                    Loading…
+                  </iframe>
