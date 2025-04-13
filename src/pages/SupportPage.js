@@ -1,8 +1,13 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 function SupportPage() {
   return (
-    <div className="p-6 max-w-3xl mx-auto">
+    <>
+      <Helmet>
+        <title>Support – ArtCalc</title>
+      </Helmet>
+      <div className="p-6 max-w-3xl mx-auto">
       <h2 className="text-3xl font-bold mb-4">Support</h2>
       <p className="mb-2">Need help? Contact us at <a href="mailto:artil.calc@gmail.com" className="text-blue-600">artil.calc@gmail.com</a></p>
 
@@ -27,6 +32,7 @@ function SupportPage() {
           Loading…
       </div>
     </div>
+    </>
   );
 }
 
